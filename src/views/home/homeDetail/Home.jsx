@@ -1,3 +1,4 @@
+import galaxia from "../../images/galaxia.png"
 import jupiter from "../../images/jupiter.png"
 import venus from "../../images/venus.png"
 import marte from "../../images/marte.png"
@@ -7,36 +8,16 @@ import saturno from "../../images/saturno.png"
 import tierra from "../../images/tierra.png"
 import urano from "../../images/urano.png"
 
-import galaxiaImg1 from '../../images/galaxia1.png'
-import galaxiaImg2 from '../../images/galaxia2.png'
-import galaxiaImg3 from '../../images/galaxia3.png'
-import galaxiaImg4 from '../../images/galaxia4.png'
-import galaxiaImg5 from '../../images/galaxia5.png'
-import galaxiaImg6 from '../../images/galaxia6.png'
-import galaxiaImg7 from '../../images/galaxia7.png'
-import galaxiaImg8 from '../../images/galaxia8.png'
-import galaxiaImg9 from '../../images/galaxia9.png'
-
 import "./home.css"
-import "../imgHomeAnimatio.css"
 
 function Home() {
   return (
     <div>
       <div className="homeIntroductionDivContainer m p">
         <p className="m p homeIntroductionDivText">
-        NASA offers a fascinating Historical Images API that allows you to explore the vast visual archive of the space agency. With this tool, space enthusiasts, researchers, and curious minds can input a specific date and receive an image captured by one of the numerous space missions conducted by NASA on that particular day.</p>
-        <div className='divAnimationGalaxiContainer'>
-          <img src={galaxiaImg1} alt="" className='galaxiImg'/>
-          <img src={galaxiaImg2} alt="" className='galaxiImg galaxiImg1'/>
-          <img src={galaxiaImg3} alt="" className='galaxiImg galaxiImg2'/>
-          <img src={galaxiaImg4} alt="" className='galaxiImg galaxiImg3'/>
-          <img src={galaxiaImg5} alt="" className='galaxiImg galaxiImg4'/>
-          <img src={galaxiaImg6} alt="" className='galaxiImg galaxiImg5'/>
-          <img src={galaxiaImg7} alt="" className='galaxiImg galaxiImg6'/>
-          <img src={galaxiaImg8} alt="" className='galaxiImg galaxiImg7'/>
-          <img src={galaxiaImg9} alt="" className='galaxiImg galaxiImg8'/>
-        </div>
+          NASA offers a fascinating Historical Images API that allows you to explore the vast visual archive of the space agency. With this tool, space enthusiasts, researchers, and curious minds can input a specific date and receive an image captured by one of the numerous space missions conducted by NASA on that particular day.
+        </p>
+        <img src={galaxia} alt="dibujo de galaxia" className="homeIntroductionDivImg"/>
       </div>
       <div className="homeIntroductionDivPlanetsContainer">
           <section className="separationSectionLine m p">

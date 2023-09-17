@@ -1,36 +1,19 @@
 .homeIntroductionDivContainer {
+  display: flex; 
   align-items: center;
-
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-
+  justify-items: center;
+  
   width: calc(90%);
   height: auto;
 }
 
-@media only screen and (max-width: 1000px) {
-  .homeIntroductionDivContainer {
-    align-items: center;
-  
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  
-    width: calc(90%);
-    height: auto;
-  }
-}
-
 .homeIntroductionDivText {
   border: solid white;
-  width: calc(50%);
+  width: 50%;
 }
 
 .homeIntroductionDivImg {
-  width: calc(50%);
-  background-color: red;
-
+  width: 50%;
 }
 
 .homeIntroductionDivPlanetsContainer {
@@ -66,4 +49,26 @@
 
 .homeIntroductionDivPlanetsDetailText {
   max-width: 300px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .homeIntroductionDivContainer {
+    align-items: center;
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    width: calc(90%);
+    height: auto;
+  }
+
+  .homeIntroductionDivText {
+    border: solid white;
+    width: calc(100%);
+  }
+  
+  .homeIntroductionDivImg {
+    width: calc(100%);
+  }
 }

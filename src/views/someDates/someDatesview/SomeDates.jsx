@@ -1,4 +1,4 @@
-import SomeDatesDetail from "../someDateDetail/SomeDateDetail";
+import SomeDatesDetail from "./someDateDetail/SomeDateDetail";
 import { useState } from "react";
 import axios from "axios";
 
@@ -56,7 +56,7 @@ function SomeDates() {
               setMaxInputDate(e.target.value);
             }}
           />
-        <button type="submit" className="button">Ver fotos</button>
+        <button type="submit" className="button">Get photos</button>
 
         </form>
       </div>

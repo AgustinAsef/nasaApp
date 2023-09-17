@@ -4,11 +4,6 @@ import "./nav.css"
 
 function Nav() {
 
-/*   const [menuOpen, setMenuOpen] = useState(false);
-
-  function  toggleNavMenu() {
-    setMenuOpen(!menuOpen);
-  } */
   return (
     <div className="navDivContainer">
         <Link to={'/home'} className="m navDivTittle">
@@ -16,8 +11,8 @@ function Nav() {
           <h1>NASAapi</h1>            
         </Link>
         <div className="navDivButtonsContainer">
-          <Link to='/intergalacticbirthday'><button className="button buttonNav m"><p className="navButtonP">intergalactic birthday</p></button></Link>
-          <Link to='/somedates'><button className="button buttonNav m"><p className="navButtonP">Some picks</p></button></Link>
+          <Link to='/intergalacticbirthday'><button className="button buttonNav m">Intergalactic birthday</button></Link>
+          <Link to='/somedates'><button className="button buttonNav m">Some picks</button></Link>
         </div>
     </div>
   )

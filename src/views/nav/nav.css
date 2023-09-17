@@ -19,25 +19,12 @@
   align-items: center;
 }
 
-.navButtonImg{
-  display: none;
-}
-
 .navTierraImg{
   height: 50px;
   width: 100px;
 }
 
-.notShow{
-  display: none;
-}
-
 @media only screen and (max-width: 1000px) {
-
-  .buttonNav{
-    width:50px ;
-    height: 50px;
-  }
 
   .navButtonP{
     display: none;
