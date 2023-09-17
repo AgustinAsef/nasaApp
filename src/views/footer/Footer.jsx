@@ -9,10 +9,7 @@ function Footer() {
       <footer className="footerDivContainer">
         <div className="m p footerDiv">
           <p>
-            Esta pagina es la primera en la que implemento algunos dibujos personales
-            para mejorar el diseño de la pagina asi como su aspecto visual.
-            con el tiempo ire agregando mas diseños
-          </p>
+          This page is the first where I implement some personal drawings to enhance the design and visual aspect of the page. Over time, I will be adding more designs          </p>
         </div>
         <div className="m p footerDiv">
           <a href="https://www.linkedin.com/in/agustin-battigane-asef/" className="m"><img src={linkEdinLogo} alt="logo de linkKedin" className="footerDivSocialMediaImg"/></a>

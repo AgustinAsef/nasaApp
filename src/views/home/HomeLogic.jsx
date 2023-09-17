@@ -37,7 +37,7 @@ function HomeLogic() {
         <Nav/>
         <Home/>
         <div>
-          Cargando ...
+          Loading ...
         </div>
         <Footer/>
       </div>

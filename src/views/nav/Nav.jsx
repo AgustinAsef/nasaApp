@@ -17,7 +17,7 @@ function Nav() {
         </Link>
         <div className="navDivButtonsContainer">
           <Link to='/intergalacticbirthday'><button className="button buttonNav m"><p className="navButtonP">intergalactic birthday</p></button></Link>
-          <Link to='/somedates'><button className="button buttonNav m"><p className="navButtonP">some picks</p></button></Link>
+          <Link to='/somedates'><button className="button buttonNav m"><p className="navButtonP">Some picks</p></button></Link>
         </div>
     </div>
   )

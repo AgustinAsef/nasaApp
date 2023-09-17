@@ -28,7 +28,7 @@ function SomeDates() {
     <div>
       <div >
         <form className="m someDatesDivContainer" onSubmit={(e)=>getDate(e)}>
-          <h2>De:</h2>{" "}
+          <h2>From:</h2>{" "}
           <input
             type="date"
             name="dateMin"
@@ -42,7 +42,7 @@ function SomeDates() {
               setMinInputDate(e.target.value);
             }}
           />
-          <h2>a:</h2>{" "}
+          <h2>to:</h2>{" "}
           <input
             type="date"
             name="dateMax"

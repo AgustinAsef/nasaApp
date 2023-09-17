@@ -12,12 +12,12 @@ function SomeDatesDetail(newDates) {
   if (dates == null || undefined) {
     return(
       <div className="m p center">
-        <h1>Consulta algunas fechas...</h1>
+        <h1>Ask about some dates...</h1>
       </div>      ) 
   }if(dates == ''){
     return(
       <div className="m p center">
-        <h1>Cargando...</h1>
+        <h1>Loading...</h1>
       </div>
     )
   }else{
