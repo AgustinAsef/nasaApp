@@ -39,7 +39,7 @@ function ADate() {
             required
           />
           <button className="m button">
-            Obtener imagen
+            Get image
           </button>
         </form>
         <section>

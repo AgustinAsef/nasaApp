@@ -1,4 +1,4 @@
-import SomeDatesDetail from "./someDateDetail/SomeDateDetail";
+import SomeDatesDetail from "../someDateDetail/SomeDateDetail";
 import { useState } from "react";
 import axios from "axios";
 

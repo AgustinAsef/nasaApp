@@ -1,6 +1,6 @@
-import Nav from "../views/nav/Nav";
-import SomeDates from "../views/someDates/SomeDates";
-import Footer from "../views/footer/Footer";
+import Nav from "../nav/Nav";
+import SomeDates from "./someDatesview/SomeDates";
+import Footer from "../footer/Footer";
 
 function SomePicsLogic() {
   return (

@@ -1,6 +1,6 @@
-import HomeLogic from './logic/HomeLogic'
-import IntergalacticBirthday from './logic/IntergalacticBirthday.jsx'
-import SomePicsLogic from './logic/SomePicsLogic'
+import HomeLogic from './views/home/HomeLogic'
+import IntergalacticBirthday from './views/home/IntergalacticBirthday'
+import SomePicsLogic from './views/someDates/SomePicsLogic'
 import { Route, Routes } from 'react-router-dom'
 
 import './App.css'

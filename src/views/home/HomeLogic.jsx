@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import Nav from "../views/nav/Nav"
-import Home from "../views/home/Home";
-import DailyPic from "../views/dailyPic/DailyPic"
-import Footer from "../views/footer/Footer";
+import Nav from "../nav/Nav"
+import Home from "./homeDetail/Home";
+import DailyPic from "./dailyPic/DailyPic"
+import Footer from "../footer/Footer";
 import axios from "axios";
 
 function HomeLogic() {

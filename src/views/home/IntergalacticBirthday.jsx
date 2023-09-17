@@ -1,6 +1,6 @@
-import Nav from "../views/nav/Nav";
-import ADate from "../views/aDate/ADate"
-import Footer from "../views/footer/Footer";
+import Nav from "../nav/Nav";
+import ADate from "../aDate/ADate"
+import Footer from "../footer/Footer";
 
 function IntergalacticBirthday() {
   return (
