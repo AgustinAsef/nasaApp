@@ -1,0 +1,11 @@
+.aDateFormSectionContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aDateFormInput{
+  background-color: transparent;
+  border: none;
+  font-size: large;
+}

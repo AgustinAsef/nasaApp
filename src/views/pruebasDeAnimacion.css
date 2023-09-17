@@ -1,0 +1,101 @@
+.divAnimationGalaxiContainer{
+  width: calc(50%);
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.galaxiImg{
+  width: calc(100%);
+  position: absolute;
+}
+
+.divAnimationGalaxiContainer:hover .galaxiImg2{
+  animation: rotateimg2 0.2s linear forwards;
+}
+
+.divAnimationGalaxiContainer:hover .galaxiImg3{
+  animation: rotateimg3 0.3s linear forwards;
+}
+
+.divAnimationGalaxiContainer:hover .galaxiImg4{
+  animation: rotateimg4 0.4s linear forwards;
+}
+
+.divAnimationGalaxiContainer:hover .galaxiImg5{
+  animation: rotateimg5 0.5s linear forwards;
+}
+.divAnimationGalaxiContainer:hover .galaxiImg6{
+  animation: rotateimg6 0.6s linear forwards;
+}
+.divAnimationGalaxiContainer:hover .galaxiImg7{
+  animation: rotateimg7 0.7s linear forwards;
+}
+.divAnimationGalaxiContainer:hover .galaxiImg8{
+  animation: rotateimg8 0.8s linear forwards;
+}
+
+@keyframes rotateimg2 {  
+  0% {
+    transform: rotate(0deg);    
+  }
+  100% {
+    transform: rotate(-50deg);
+  }
+}
+
+@keyframes rotateimg3 {  
+  0% {
+    transform: rotate(0deg);    
+  }
+  100% {
+    transform: rotate(35deg);  
+  }
+}
+
+@keyframes rotateimg4 {  
+  0% {
+    transform: rotate(0deg);    
+  }
+  100% {
+    transform: rotate(-125deg);
+  }
+}
+
+@keyframes rotateimg5 {  
+  0% {
+    transform: rotate(0deg);    
+  }
+  100% {
+    transform: rotate(100deg);
+  }
+}
+
+@keyframes rotateimg6 {  
+  0% {
+    transform: rotate(0deg);    
+  }
+  100% {
+    transform: rotate(-160deg);
+  }
+}
+
+@keyframes rotateimg7 {  
+  0% {
+    transform: rotate(0deg);    
+  }
+  100% {
+    transform: rotate(-88deg);
+  }
+}
+
+@keyframes rotateimg8 {  
+  0% {
+    transform: rotate(0deg);    
+  }
+  100% {
+    transform: rotate(150deg);
+  }
+}

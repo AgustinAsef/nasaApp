@@ -1,0 +1,11 @@
+.someDatesDivContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.someDatesInput{
+  height: 30px;
+  width: 150px;
+  background-color: transparent;
+}

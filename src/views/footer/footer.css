@@ -1,0 +1,19 @@
+.footerDivContainer{
+  background-color: rgba(0, 0, 0, 0.2);
+  width: calc(100%);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(40%);
+}
+
+.footerDivSocialMediaImg{
+  height: 50px;
+  width: 50px;
+}
